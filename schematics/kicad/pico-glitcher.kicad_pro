@@ -52,7 +52,22 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|119021100|106298600|1bfff95a-a9ac-40a3-94bd-aab6b0ecac6a|97e6c06e-39b0-48aa-a32e-127775fec01c",
+        "clearance|122555100|116398600|72908797-79e9-4a67-8c94-698044d30e23|4a5813a4-c192-4400-ac36-ad8c5f736c5f",
+        "clearance|122901100|116398600|4e50f0cf-a24f-466f-90bf-5a755a771a1d|4a5813a4-c192-4400-ac36-ad8c5f736c5f",
+        "clearance|129413100|114701400|a258d822-0450-4104-aa04-7008ebee2ff0|ce7a2628-a1a2-423a-ad77-852500b9f76e",
+        "clearance|135889900|115107800|6f20e28c-541e-473f-bc3b-37ec4416b5b5|18af9f78-0877-449c-a304-f7669b76b7bb",
+        "clearance|135922600|115075100|8cb1254f-18b6-4f25-a7e6-7ce420f25438|18af9f78-0877-449c-a304-f7669b76b7bb",
+        "clearance|136570100|113349600|ff7895a0-8fc5-4f35-ba91-78db09d6ab47|ee64d88b-0af8-441c-a290-b4bf9d2f4060",
+        "clearance|139411100|116398600|9d74bdf2-c08f-48c7-bdc2-616fcb159756|c7ec7d1c-c5d9-4711-91bd-6bccba19e383",
+        "clearance|139411100|116398600|f970c77e-b8ee-42a2-bee1-2c23a80ecfa9|c7ec7d1c-c5d9-4711-91bd-6bccba19e383",
+        "clearance|140246100|113573600|80ee3ff9-ef23-426e-b503-271088a96283|ee1a3810-0d11-4255-a761-3a456eb9e836",
+        "shorting_items|106033106|100846600|0f8f568e-7282-453e-979e-2d98cbcde941|261db6b3-ab61-4d28-bf37-ec452a37fb46",
+        "shorting_items|110872300|127564600|552007fc-c6d6-465e-9d2b-8c4dd9c838d6|ea9e2c15-5c61-45da-96d1-c58e952056f5",
+        "solder_mask_bridge|106033106|100846600|0f8f568e-7282-453e-979e-2d98cbcde941|261db6b3-ab61-4d28-bf37-ec452a37fb46",
+        "solder_mask_bridge|110872300|127564600|552007fc-c6d6-465e-9d2b-8c4dd9c838d6|ea9e2c15-5c61-45da-96d1-c58e952056f5"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -126,7 +141,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
